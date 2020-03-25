@@ -24,7 +24,7 @@ For the testing dataset, we provide labels for outlier machine instances, and in
 
 Thus DOMI_dataset is made up by the following parts:
 
-* `train_data/`: Training set.
-* `test_data/`: Testing set.
+* `train_data/`: Training set. The monitoring data of each machine is stored in one file, each line has 19 monitored metrics at one timestamp and we totally have 288 * 30 lines.
+* `test_data/`: Testing set.  We totally have 288 * 15 lines.
 * `test_label/`: The labels of the testing set, which indicate whether an instance is an outlier. 
 * `interpretation_label.txt`: The ground truth lists of metrics that contribute to outlier judgement.
